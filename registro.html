@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta version="1.0" charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="author" content="Facundo Erbin">
+	<meta name="keywords" content="TuServicio.com, reparacion, computadoras">
+	<title>TuServicio.com</title>
+</head>
+<body>
+	<header>
+		<svg>
+			<image xlink:href="./images/logo.svg" width="200" height="200"></image> 
+		</svg>
+		<h1>
+			TuServicio.com
+		</h1>
+		<h2>Te reparamos el computador</h2>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="contacto.html">Contactenos</a></li>
+			<li><a href="sesion.html">Inicio de Sesión</a></li>
+			<li>Registro</li>
+		</ul>
+	</header>
+
+	<main>
+		<div><hr></div>
+		<h2>Registro</h2>
+
+		<form name="Formulario de Registro">
+			<fieldset>
+				<legend><strong>Registro</strong></legend>
+				<br>
+				<label for="email">E-mail*:</label><br>
+ 	 			<input type="text" id="email" name="email" required><br>
+ 	 			<br>
+  				
+  				<label for="contraseña">Contraseña*:</label><br>
+  				<input type="text" id="contraseña" name="contraseña" required><br>
+  				<br>
+
+				<label for="donde_vio"><strong>¿Donde nos vió?: </strong></label><br>	
+	  			<input type="radio" name="donde" value="roundGoogle">Google<br>
+	  			<input type="radio" name="donde" value="roundOtros">Otros<br>
+				<br>
+
+				<label for="comentarios"><strong>Comentarios: </strong></label> <br>
+				<textarea id="comentarios" rows="5" cols="150" placeholder="comentarios..."></textarea>
+				<br><br>
+
+				<input type="checkbox" name="terminos" id="terminos" required>	
+				<label for="terminos"><strong>Acepta Términos y Condiciones*</strong></label> 
+				<br><br>
+
+	  			<input type="submit" name="submit" value="Continuar"><br>
+			</fieldset>
+		</form>
+	</main>
+
+	<footer>
+		<div><hr></div>
+		<strong>Derechos Reservados</strong>
+	</footer>
+
+</body>
+</html>
